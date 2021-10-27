@@ -60,6 +60,12 @@ a.twitter:after {
 a.twitter:hover {
     color: #fff
 }
+a.linkedin:after {
+    background-color: #0077b5;
+}
+a.linkedin:hover {
+    color: #fff
+}
 .title {
     font-size: 2.2em
 }
