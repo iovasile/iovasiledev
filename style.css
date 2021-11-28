@@ -42,8 +42,14 @@ a:hover:after {
 a.flutter:after {
     background-color: #45d1fd;
 }  
-a.vue:after {
-    background-color: #42b883;
+a.flutter:hover {
+    color: #fff
+}
+a.swift:after {
+    background-color: #F05138;
+}
+a.swift:hover {
+    color: #fff
 }
 a.firebase:after {
     background-color: #ffcb2b;
