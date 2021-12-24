@@ -51,12 +51,6 @@ a.swift:after {
 a.swift:hover {
     color: #fff
 }
-a.firebase:after {
-    background-color: #ffcb2b;
-}
-a.github:after {
-    background-color: #000;
-}
 a.github:hover {
     color: #fff
 }
