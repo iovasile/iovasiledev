@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap');
 
 body {
-	font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: calc(10px + 0.33vw);
 	-webkit-font-smoothing: antialiased;
 	padding: 5vh 10vw;
@@ -19,16 +19,27 @@ p {
 	line-height: 1.4;
 	max-width: 28em;
 }
+ul {
+	padding: 0;
+	display: flex;
+	gap: 20px;
+	li {
+		font-size: 1.6em;
+		font-weight: 300;
+		line-height: 1.4;
+		list-style-type: none;
+	}
+}
 a {
 	text-decoration: none;
 	color: #121314;
 	position: relative;
 }
 a:after {
-	content: "";
+	content: '';
 	position: absolute;
 	z-index: -1;
-	top: 69%;
+	top: 72%;
 	left: -0.1em;
 	right: -0.1em;
 	bottom: 0;
@@ -44,35 +55,40 @@ a.flutter:hover {
 	color: #fff;
 }
 a.swiftui:after {
-	background-color: #06168d;
+	background: linear-gradient(115deg, #06adee, #037bfe, #0d3d8e);
 }
 a.swiftui:hover {
 	color: #fff;
 }
 a.jetpack:after {
-	background-color: #71d98c;
+	background: linear-gradient(
+		90deg,
+		#142e3f 33%,
+		#71d98c 33%,
+		#71d98c 66%,
+		#5981f1 66%
+	);
 }
 a.jetpack:hover {
 	color: #fff;
 }
-a.github:after {
+a.firebase:after {
+	background-color: #ffcb2b;
+}
+
+a.threads:after {
 	background-color: #000;
 }
-a.github:hover {
+a.threads:hover {
 	color: #fff;
 }
-a.twitter:after {
-	background-color: #1da1f2;
+a.instagram:after {
+	background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
 }
-a.twitter:hover {
+a.instagram:hover {
 	color: #fff;
 }
-a.linkedin:after {
-	background-color: #0077b5;
-}
-a.linkedin:hover {
-	color: #fff;
-}
+
 .title {
 	font-size: 2.2em;
 }
